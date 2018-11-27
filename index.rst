@@ -1,5 +1,5 @@
 *************************
-EnOS IoT Operating System
+EnOS AIoT Operating System
 *************************
 
 
@@ -8,35 +8,34 @@ EnOS IoT Operating System
    :caption: Overview
 
    overview/enos_introduction
+   overview/services_overview
    overview/accessing_enos
+   reference/glossary
+
 
 .. toctree::
    :maxdepth: 1
    :caption: EnOS Services and Funtions
 
+   EnOS Edge <https://docs.envisioniot.com/docs/enos-edge/en/latest/edge_overview.html>
    Identity and access management <https://docs.envisioniot.com/docs/iam/en/latest/iam_overview.html>
    Device connection <https://docs.envisioniot.com/docs/device-connection/en/latest/deviceconnection_overview.html>
-   Event management <https://docs.envisioniot.com/docs/event-management/en/latest/gettingstarted.html>
-   Real-time data processing <https://docs.envisioniot.com/docs/online-data/en/latest/streaming_overview.html>
-   Batch data processing <https://docs.envisioniot.com/docs/offline-data/en/latest/gettingstarted.html>
-   Data analysis and report <https://docs.envisioniot.com/docs/analysis-report/en/latest/index>
-   Application development <https://docs.envisioniot.com/docs/app-development/en/latest/gettingstarted.html>
+   Alert management <https://docs.envisioniot.com/docs/event-management/en/latest/alert_overview.html>
+   Application development <https://docs.envisioniot.com/docs/app-development/en/latest/app_dev_overview.html>
+
 
 .. toctree::
-    :maxdepth: 1
-    :caption: Tutorials
+   :maxdepth: 1
+   :caption: security
 
-    Connecting devices through EnOS Edge <https://docs.envisioniot.com/docs/enos-tutorials/en/latest/device_connection/try/index.html>
-    Processing and visualizing data <https://docs.envisioniot.com/docs/enos-tutorials/en/latest/application_development/try/data_instructions_on_experiment_overview.html>
-    Managing events <https://docs.envisioniot.com/docs/enos-tutorials/en/latest/application_development/try/module_3.html>
-    Using EnOS APIs <https://docs.envisioniot.com/docs/enos-tutorials/en/latest/application_development/try/module_4.html>
-    Using Java SDKs to call EnOS APIs <https://docs.envisioniot.com/docs/enos-tutorials/en/latest/application_development/try/module_5.html>
+   security/security_overview
+   security/x509_ca/index
 
 .. toctree::
    :maxdepth: 1
    :caption: Reference
 
-   reference/glossary
+   faq/index
 
 Downloads
 """"""""

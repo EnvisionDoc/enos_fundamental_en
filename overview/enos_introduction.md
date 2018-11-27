@@ -1,6 +1,6 @@
 # EnOS Overview
 
-Envision EnOS is an IoT operating system that builds on top of open standards and best design to ensure it operates in an open eco-system. EnOS provides comprehensive features and services to cater to different use-case scenarios.
+EnOS™ is THE AIOT operating system for enterprises and cities to accelerate digital transformation and ecosystem development. EnOS builds on top of open standards and best design to ensure it operates in an open eco-system.
 
 **Extensive connectivity**
 
@@ -39,7 +39,7 @@ EnOS allows users such as IoT engineers, data scientists, application developers
 
 EnOS consists of the cloud side and edge side as shown in the following figure.
 
-![EnOS architecture](architecture.gif)
+![EnOS architecture](media/architecture.png)
 
 ### EnOS Cloud
 
