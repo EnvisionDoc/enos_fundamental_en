@@ -9,6 +9,7 @@ EnOS AIoT Operating System
 
    overview/enos_introduction
    overview/services_overview
+   overview/technical_architecture
    overview/accessing_enos
 
 .. toctree::
@@ -16,10 +17,10 @@ EnOS AIoT Operating System
    :caption: EnOS Services and Functions
 
    EnOS Edge <https://docs.envisioniot.com/docs/enos-edge/en/latest/edge_overview.html>
-   Identity and access management <https://docs.envisioniot.com/docs/iam/en/latest/iam_overview.html>
-   Device connection <https://docs.envisioniot.com/docs/device-connection/en/latest/deviceconnection_overview.html>
-   Asset alert management <https://docs.envisioniot.com/docs/event-management/en/latest/alert_overview.html>
-   Application development <https://docs.envisioniot.com/docs/app-development/en/latest/app_dev_overview.html>
+   Identity and Access Management <https://docs.envisioniot.com/docs/iam/en/latest/iam_overview.html>
+   Device Provisioning <https://docs.envisioniot.com/docs/device-connection/en/latest/deviceconnection_overview.html>
+   Alert Service <https://docs.envisioniot.com/docs/event-management/en/latest/alert_overview.html>
+   Application Development <https://docs.envisioniot.com/docs/app-development/en/latest/app_dev_overview.html>
 
 
 .. toctree::

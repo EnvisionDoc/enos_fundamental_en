@@ -1,8 +1,8 @@
-# Best practice for securing communications between EnOS Edge and EnOS IoT Hub with X.509 certificates
+# Best practice for securing communications between edge gateways and EnOS IoT Hub with X.509 certificates
 
-Security is a critical in an IoT system. EnOS enforces the following security schemes for secure the connection between EnOS Edge and EnOS IoT Hub:
+Security is a critical in an IoT system. EnOS enforces the following security schemes for secure the connection between the edge gateway and EnOS IoT Hub:
 
-- The communications between EnOS Edge and EnOS IoT Hub are enfored to use certificate-based bi-directional authentication.
+- The communications between the edge gateway and EnOS IoT Hub are enfored to use certificate-based bi-directional authentication.
 - Support for RSA algorithm to verify signature, with enforcement for 2048 bits.
 - The resource on EnOS is segregated and the API access permissions are controlled by IAM, for more information, see [IAM overview](https://docs.envisioniot.com/docs/iam/en/latest/iam_overview.html).
 

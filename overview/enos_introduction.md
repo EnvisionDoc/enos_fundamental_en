@@ -16,7 +16,9 @@ Enterprise-grade software stack with flexible deployment options (public, privat
 
 EnOS can operate in private cloud and public cloud hosting environment to enable clients to develop, run and operate their applications without handling the complexity of managing software stacks.
 
-EnOS can also be deployed in virtual private cloud (VPC) on public cloud hosting environment and private cloud without dependency on underlying hypervisors. you can also deploy the solution that best suits your requirements for cost, control, configurability, scalability, location and security.
+EnOS can also be deployed in virtual private cloud (VPC) on public cloud hosting environment and private cloud without dependency on underlying hypervisors. You can also deploy the solution that best suits your requirements for cost, control, configurability, scalability, location and security.
+
+EnOS is compatible with most popular IaaS vendors such as Amazon AWS and Microsoft Azure. In order to keep the best compatibility, Public EnOS clusters only depends on the virtual machines and NFS services from selected IaaS providers. Many major components of EnOS IoT Core are built with state-of-the-art open source software. They are well supported by common OS environment running on virtual machines. EnOS cloud integrates with the management API of IaaS, making it possible to adjust the scale of an existing cluster or create new clusters in automation.
 
 
 **Domain expertise**
@@ -35,7 +37,7 @@ EnOS allows users such as IoT engineers, data scientists, application developers
 <!--Need to add description about the end user, system admins and application users-->
 
 
-## Major components
+## Major Components
 
 EnOS consists of the cloud side and edge side as shown in the following figure.
 

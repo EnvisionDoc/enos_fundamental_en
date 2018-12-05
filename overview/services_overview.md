@@ -1,4 +1,4 @@
-# EnOS services and functions overview
+# EnOS Services and Functions Overview
 
 EnOS™ is an integrated, secure, and open IoT operating system with comprehensive features and services for device provisioning and management, data integration and processing, and data visualization for business insights. EnOS provides end-to-end tooling to enable rapid deployment of Software-as-a-Service (SaaS) applications that integrate and process heterogeneous and dynamic data from smart IoT devices and across enterprise information systems.
 
@@ -20,7 +20,7 @@ EnOS™ is an integrated, secure, and open IoT operating system with comprehensi
 <p>Powered by Apache Spark™ Streaming, provides access to the abstract computing models of user devices and sites and allows you to run your codes through the SDKs/APIs provided by EnOS™ for flexible customization based on your business needs. <a class="reference external" href="https://docs.envisioniot.com/docs/online-data/en/latest/">Coming back soon >></a></p>
 </div>
 <div class="block-4" id="event-management">
-<span id="event-management"></span><h2>Asset Alert Management<a class="headerlink" href="#event-management" title="Permalink to this headline"></a></h2>
+<span id="event-management"></span><h2>Alert Service<a class="headerlink" href="#event-management" title="Permalink to this headline"></a></h2>
 <p>Enables receiving, processing, and generating alerts on your assets. Allows defining alert triggering rules against the asset data, to achieve real-time alarming and troubleshooting. <a class="reference external" href="https://docs.envisioniot.com/docs/event-management/en/latest/">Learn more >></a>.</p>
 </div>
 <div class="block-4" id="data-integration">

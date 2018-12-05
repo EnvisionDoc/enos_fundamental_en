@@ -1,4 +1,4 @@
-# Security schemes
+# Security Schemes
 
 ## Authentication
 

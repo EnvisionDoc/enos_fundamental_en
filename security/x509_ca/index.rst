@@ -22,14 +22,14 @@ EnOS X.509 Certificate Service provides the following functions:
 
 - Retrieving root CA certificate
 - Retrieving certification revocation list
-- Getting X.509 certificate
-- Revoking X.509 certificate
 
+Therefore, IoT hub can get and revoke X.509 certificates for securing the communication between devices and the cloud.
 
-There functions are available through REST APIs.
+There functions are available through REST APIs in IoT hub.
 
 .. toctree::
    :maxdepth: 1
 
    using_ca_service_api
    secure_communication_iothub
+   creating_csr
