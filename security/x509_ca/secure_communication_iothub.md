@@ -35,7 +35,7 @@ The following diagram illustrates the process of secure communication between th
 
 2f. The IoT Hub receives the issued X.509 certificate, binds it with the device id, and then sends the certificate to the edge.
 
-2g.The edge receives the issued X.509 certificate, saves it securely in the local repository, for example, the Trusted Platform Module (TPM).
+2g.The edge receives the issued X.509 certificate, saves it securely in the local repository.
 
 ## Communication phase
 

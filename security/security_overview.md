@@ -25,6 +25,8 @@ EnOS edge has built-in firmware/software upgrade feature to ensure that critical
 
 Unused USB ports are disabled by default to prevent malicious access. Only network ports used by necessary applications and services are enabled by network policies explicitly.
 
+Some type of EnOS edges are manufactured with TPM chips. EnOS may utilize this hardware feature to store the client certificate securely.
+
 ## Secure Connectivity
 
 EnOS edge and other compatible edge devices communicate with EnOS cloud via TLS protected data tunnel. X.509 certificate based bi-directional authentication is enforced for each session. To ensure that each edge has its exclusive client certificate, the certificate request exchange is performed by edge during its first power-on procedure. Edge device generates public certificate request containing unique device identifier (e.g., serial number, network MAC address) and corresponding private key according to PKI standard. Certificate request will be forwarded to EnOS certification service or public-trusted CA for sign. Later, issued public certificate will be sent back to edge device, to be stored together with private key locally.
