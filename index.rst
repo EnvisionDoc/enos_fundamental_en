@@ -20,9 +20,6 @@ EnOS AIoT Operating System
    Identity and Access Management <https://docs.envisioniot.com/docs/iam/en/latest/iam_overview.html>
    Device Provisioning <https://docs.envisioniot.com/docs/device-connection/en/latest/deviceconnection_overview.html>
    Alert Service <https://docs.envisioniot.com/docs/event-management/en/latest/alert_overview.html>
-   Real-Time Data Processing <https://docs.envisioniot.com/docs/online-data/en/latest/streaming_overview.html>
-   Batch Data Processing <https://docs.envisioniot.com/docs/offline-data/en/latest/overview.html>
-   Data Analytics and Reporting <https://docs.envisioniot.com/docs/analysis-report/en/latest/index.html>
    Application Development <https://docs.envisioniot.com/docs/app-development/en/latest/app_dev_overview.html>
 
 
