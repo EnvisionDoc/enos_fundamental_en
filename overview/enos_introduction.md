@@ -25,8 +25,7 @@ EnOS is compatible with most popular IaaS vendors such as Amazon AWS and Microso
 
 Domain driven data architecture promised by rich experience with smart energy devices and scenarios.
 
-Through extensive domain metadata, EnOS supports standardized data acquisition policies, ingestion rules, event handling rules, data retention policies, ODS schema, access control policies and data quality policies cross layer 3 to 5 in the 7-layer reference architecture, as illustrated in Figure 7.
-With configurable metadata mapping from the data source to the data target, this process will significantly reduce the effort required for data cleansing and normalization.
+Through extensive domain metadata, EnOS supports standardized data acquisition policies, ingestion rules, event handling rules, data retention policies, ODS schema, access control policies and data quality policies. With configurable metadata mapping from the data source to the data target, this process will significantly reduce the effort required for data cleansing and normalization.
 
 **Eco-system**
 
