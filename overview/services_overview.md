@@ -9,7 +9,7 @@ EnOS™ is an integrated, secure, and open IoT operating system with comprehensi
 </div>
 <div class="block-4" id="device-modelling">
 <span id="device-modelling"></span><h2>Device Modelling<a class="headerlink" href="#device-modelling" title="Permalink to this headline"></a></h2>
-<p>Enables abstracting and standardizing device data from various manufacturers to be unified into a small number of common models and thus facilitates application processing. Provides a large set of device models out-of-the-box to accelerate your device modelling. <a class="reference external" href="https://docs.envisioniot.com/docs/device-connection/en/latest/model_overview.html">Learn more >></a></p>
+<p>Enables abstracting and standardizing device data from various manufacturers to be unified into a small number of common models and thus facilitates application processing. Provides a large set of device models out-of-the-box to accelerate your device modelling. <a class="reference external" href="https://docs.envisioniot.com/docs/device-connection/en/latest/model/model_overview.html">Learn more >></a></p>
 </div>
 <div class="block-4" id="device-provisioning">
 <span id="device-provisioning"></span><h2>Device Provisioning<a class="headerlink" href="#device-provisioning" title="Permalink to this headline"></a></h2>

@@ -8,7 +8,7 @@ Simplified ubiquitous connectivity based on rich protocol library.
 - EnOS supports direct device connections through the MQTT protocol and connections through the EnOS Edge or third-party edge products according to your business needs.
 - EnOS Edge supports a rich set of industry-standard protocols and some private protocols of mainstream IoT vendors. EnOS also provides toolsets to help you develop your own protocol.
 
-For more information, see [Device connection](https://docs.envisioniot.com/docs/device-connection/en/latest/deviceconnection_overview.html).
+For more information, see [Device connection](https://docs.envisioniot.com/docs/device-connection/en/latest/device_management_overview.html).
 
 **Deployment flexibility**
 
