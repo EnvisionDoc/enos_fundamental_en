@@ -8,7 +8,8 @@ EnOS™ AIoT Operating System
    :caption: Overview
 
    overview/enos_introduction
-   overview/services_overview
+   overview/technical_architecture
+   overview/enos_gettingstarted
    overview/accessing_enos
    Identity and Access Management <https://docs.envisioniot.com/docs/iam/en/latest/iam_overview.html>
 
@@ -16,6 +17,7 @@ EnOS™ AIoT Operating System
    :maxdepth: 1
    :caption: EnOS Services and Functions
 
+   overview/services_overview
    EnOS Edge <https://docs.envisioniot.com/docs/enos-edge/en/latest/edge_overview.html>
    Device Management <https://docs.envisioniot.com/docs/device-connection/en/latest/device_management_overview.html>
    Alert Service <https://docs.envisioniot.com/docs/event-management/en/latest/alert_overview.html>
@@ -39,10 +41,3 @@ EnOS™ AIoT Operating System
 
    reference/glossary
    faq/index
-
-Downloads
-""""""""
-    pdf_ htmlzip_ epub_
-.. _pdf: https://docs.envisioniot.com/projects/enos/downloads/pdf/latest/
-.. _htmlzip: https://docs.envisioniot.com/projects/enos/downloads/htmlzip/latest/
-.. _epub: https://docs.envisioniot.com/projects/enos/downloads/epub/latest/
