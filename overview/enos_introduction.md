@@ -8,7 +8,7 @@ EnOS consists of the cloud side and edge side as shown in the following figure.
 
 ## EnOS Cloud
 
-EnOS Cloud provides fundamental capabilities of model-based device asset management, data acquisition, stream data processing, batch data processing, custom event triggering and time-sequence data query service. For the services and functions that EnOS Cloud provides, see [Service and Function Overview](service_overview).
+EnOS Cloud provides fundamental capabilities of model-based device asset management, data acquisition, stream data processing, batch data processing, custom event triggering and time-sequence data query service. For the services and functions that EnOS Cloud provides, see [Service and Function Overview](services_overview).
 
 EnOS Cloud supports native EnOS Edge. If a 3rd party edge is required, EnOS Cloud also supports 3rd party edges that are compatible with the EnOS device connection framework.
 
@@ -46,6 +46,3 @@ Through extensive domain metadata, EnOS supports standardized data acquisition p
 Seamless integration with native and third-party applications, end-to-end tooling that empowers you to build your own platform.
 
 EnOS allows users such as IoT engineers, data scientists, application developers, to perform operations such as managing devices and models, exploring data ingested from devices, configuring event triggering policies, rendering data analysis reports, and managing applications that are developed through the EnOS toolsets.
-
-
-
