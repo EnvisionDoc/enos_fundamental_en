@@ -21,7 +21,6 @@ EnOS™ AIoT Operating System
    EnOS Edge <https://docs.envisioniot.com/docs/enos-edge/en/latest/edge_overview.html>
    Device Management <https://docs.envisioniot.com/docs/device-connection/en/latest/device_management_overview.html>
    Alert Service <https://docs.envisioniot.com/docs/event-management/en/latest/alert_overview.html>
-   Stream Analytics <https://docs.envisioniot.com/docs/online-data/en/latest/streaming_overview.html>
    Offline Analytics <https://docs.envisioniot.com/docs/offline-data/en/latest/gettingstarted.html>
    Data Explorer <https://docs.envisioniot.com/docs/data-explorer/en/latest/dataexplorer_overview.html>
    Analytics and Report <https://docs.envisioniot.com/docs/analysis-report/en/latest/report_overview.html>
