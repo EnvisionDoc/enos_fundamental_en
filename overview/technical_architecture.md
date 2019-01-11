@@ -10,7 +10,6 @@ This article describes the architecture of the EnOS AIoT platform. The architect
 EnOS Edge is the front end of the EnOS platform. In close contact with your enterprise assets, EnOS Edge helps securely exchange data with cloud-based services in the EnOS Cloud such as asset management and big data analytics. The results of the big data analytics algorithms and the asset management commands can then be transmitted to the devices to optimize and maximize performance, or to implement critical actions.
 
 .. image:: media/edge_architecture.png
-   :width: 400px
 
 -   **Connectivity engine** provides rich industry standard protocols. User can configure the engine to achieve data connection from remote devices.
 
@@ -27,7 +26,6 @@ EnOS Edge is the front end of the EnOS platform. In close contact with your ente
 ## EnOS Cloud
 
 .. image:: media/cloud_architecture.png
-   :width: 400px
 
 ### Infrastructure Layer
 

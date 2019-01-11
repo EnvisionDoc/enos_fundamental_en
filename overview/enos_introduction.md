@@ -55,8 +55,6 @@ EnOS allows users such as IoT engineers, data scientists, application developers
 EnOS consists of the cloud side and edge side as shown in the following figure.
 
 .. image:: media/architecture.png
-   :alt: Figure: EnOS architecture
-   :width: 400px
 
 ### EnOS Cloud
 

@@ -14,7 +14,6 @@ EnOS Console is a web-based graphic interface for you to interact with resources
 
 .. image:: media/enos_console.png
    :alt: Figure: EnOS console
-   :width: 400px
 
 The user interface is mainly comprised of 3 parts:
 
