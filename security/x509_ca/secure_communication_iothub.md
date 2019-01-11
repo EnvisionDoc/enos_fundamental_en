@@ -10,7 +10,8 @@ Security is a critical in an IoT system. EnOS enforces the following security sc
 
 The following diagram illustrates the process of secure communication between the edge and IoT Hub based on X.509 certificates:
 
-![image](../media/certificate_service_secure_communication_01.png)
+.. image:: ../media/certificate_service_secure_communication_01.png
+   :width: 400px
 
 ### 1. IoT Hub acquires X.509 certificate
 
@@ -20,7 +21,9 @@ The following diagram illustrates the process of secure communication between th
 
 1c. The IoT Hub receives and stores the X.509 certificate.
 
-![image](../media/certificate_service_secure_communication_02.png)
+.. image:: ../media/certificate_service_secure_communication_02.png
+   :width: 400px
+
 ### 2. Edge acquires X.509 certificate
 
 2a. *The device provisioner* provisions the edge with necessary information such as product key, product secret, serial number, and license. The provisioner uses these parameters to create the device in the IoT Hub.
@@ -41,7 +44,8 @@ The following diagram illustrates the process of secure communication between th
 
 The diagram below illustrates the certificate-based authentication process and the revocation process:
 
-![image](../media/certificate_service_secure_communication_03.png)
+.. image:: ../media/certificate_service_secure_communication_03.png
+   :width: 400px
 
 ### 3. Edge communicates with the IoT Hub using the certificate-based bi-directional authentication
 
@@ -55,8 +59,9 @@ When the TLS handshake in step 3a and 3b succeeds, the TLS connection is establi
 
 3d. The IoT Hub transmits configurations and control signals through MQTT over the TLS connection.
 
+.. image:: ../media/certificate_service_secure_communication_04.png
+   :width: 400px
 
-![image](../media/certificate_service_secure_communication_04.png)
 ## Revocation phase
 
 Under some circumstances, the *device provisioner* needs to revoke the X.509 certificate of the edge.

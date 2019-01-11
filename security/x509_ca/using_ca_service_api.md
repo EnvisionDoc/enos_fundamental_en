@@ -25,4 +25,6 @@ A revoked certificate is identified in the certificate revocation list (CRL) by 
 GET /enos/CA/crl
 ```
 
-**Note**: The EnOS X.509 Certificate Service refreshes CRL at 00:00 am every day.
+.. note:: The EnOS X.509 Certificate Service refreshes CRL at 00:00 am every day.
+
+<!--end-->

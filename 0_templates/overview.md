@@ -43,7 +43,10 @@ Lead-in sentence:
 The following graphic depicts the overall architecture and components of the <prod_serv_name>.
 
 Figure 1. <prod_serv_name> technical architecture
-![alt text](URL)
+
+.. image:: URL
+   :alt: alt
+   :width: 400px
 
 如果是分层架构模型：
 ### <Layer_1>

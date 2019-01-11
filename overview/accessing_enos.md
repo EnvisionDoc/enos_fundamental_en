@@ -12,10 +12,18 @@ To access the EnOS APIs, you'll need to register the application that will invok
 
 EnOS Console is a web-based graphic interface for you to interact with resources in the EnOS. The following figure shows a configuration interface in the EnOS Console.
 
-![EnOS Console](media/enos_console.png)
+.. image:: media/enos_console.png
+   :alt: Figure: EnOS console
+   :width: 400px
 
 The user interface is mainly comprised of 3 parts:
 
-- Banner: Where you can click ![Menu](media/menu.png) to show or hide the navigation tree.
+- Banner: Where you can click |menu| to show or hide the navigation tree.
+
 - Navigation tree: Where you can access the entries to all functions of EnOS cloud. You can also customize your view of navigation tree by adding your most frequently used functions into favorites for quick access.
+
 - Configuration panel: Where you perform all configuration tasks around your data and resources on EnOS cloud.
+
+.. |menu| image:: media/menu.png
+
+<!--end-->
