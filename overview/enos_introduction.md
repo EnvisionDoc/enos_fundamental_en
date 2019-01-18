@@ -48,27 +48,3 @@ Seamless integration with native and third-party applications, end-to-end toolin
 EnOS allows users such as IoT engineers, data scientists, application developers, to perform operations such as managing devices and models, exploring data ingested from devices, configuring event triggering policies, rendering data analysis reports, and managing applications that are developed through the EnOS toolsets.
 
 <!--Need to add description about the end user, system admins and application users-->
-
-
-## Major Components
-
-EnOS consists of the cloud side and edge side as shown in the following figure.
-
-.. image:: media/architecture.png
-
-### EnOS Cloud
-
-EnOS Cloud provides fundamental capabilities of model-based device asset
-management, data acquisition, stream data processing, batch data processing,
-custom event triggering and time-sequence data query service.
-
-EnOS Cloud supports native EnOS Edge. If a 3rd party edge is required, EnOS
-Cloud also supports 3rd party edges that are compatible with the EnOS device
-connection framework.
-
-### EnOS Edge
-
-EnOS Edge provides capabilities of device data acquisition, device controlling,
-data normalization, and model-based real-time computing. The data communication
-channels between EnOS Edge and EnOS Cloud are secured by TLS/SSL protocol with
-dedicated X.509 certificate for each edge device and EnOS Cloud access point.

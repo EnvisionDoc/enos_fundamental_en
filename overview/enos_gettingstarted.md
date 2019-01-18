@@ -8,13 +8,13 @@ You can request an indidual account or an Enterprise account based on your needs
 
 ### Individual Account
 
-Individual account is mainly for individual developers or for test or demo purposes. 
+Individual account is mainly for individual developers or for test or demo purposes.
 
 To apply for an individual account, select **Individual** when you sign up to EnOS. After your application is approved, you'll receive an email with your account name and password.
 
 ### Enterprise Account
 
-Enterprise account is an independant tenant who has exclusive space and resources that are segregated from other tenants on the cloud. The space for the tenant is called organization unit (OU) in EnOS. Each OU has an owner who has administation rights to the resources in the space, the owner can create additional accounts and assign proper rights for relevant roles in the enterprise, such as IoT engineers, business analysts, and application developers. 
+Enterprise account is an independant tenant who has exclusive space and resources that are segregated from other tenants on the cloud. The space for the tenant is called organization unit (OU) in EnOS. Each OU has an owner who has administation rights to the resources in the space, the owner can create additional accounts and assign proper rights for relevant roles in the enterprise, such as IoT engineers, business analysts, and application developers.
 
 To apply for an organization account, select **Organization** when you sign up to EnOS and provide the owner information. After the application is approved, the organization owner will receive an email with the OU information, account name, and password.
 
@@ -33,5 +33,3 @@ To perform more comprehensive data analysis and visualization based on specified
 ## Develop
 
 EnOS provides abundant REST APIs covering core business flows of the platform. Through these APIs, developers can register, obtain, modify, and delete authorized resources such as device assets, user accounts, and applications. EnOS also provides SDKs to facilitate offline development for application developers of mainstream programing languages. For more information, see [Application Development](https://docs.envisioniot.com/docs/app-development/en/latest/app_dev_overview.html).
-
-

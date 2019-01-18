@@ -30,11 +30,11 @@ EnOS™ is an integrated, secure, and open IoT operating system with comprehensi
 <div class="block-4" id="data-explorer">
 <span id="data-explorer"></span><h2>Data Explorer<a class="headerlink" href="#data-explorer" title="Permalink to this headline"></a></h2>
 <p>Based on the open-source Apache Zeppelin project, lowers the barrier for data
-processing, and enables data-driven, collaborative, interactive data analytics. <a class="reference external" href="https://docs.envisioniot.com/docs/analysis-report/en/latest/data_explorer/">Learn more >></a></p>
+processing, and enables data-driven, collaborative, interactive data analytics. <a class="reference external" href="https://docs.envisioniot.com/docs/data_explorer/en/latest/dataexplorer_overview.html">Learn more >></a></p>
 </div>
 <div class="block-4" id="bi-report">
 <span id="bi-report"></span><h2>BI &amp; Report<a class="headerlink" href="#bi-report" title="Permalink to this headline"></a></h2>
-<p>Provides interactive drag-and-drop user interface that lowers the barrier of acquiring, processing, and analyzing data and help you build data analysis reports rapidly and avoid duplicate efforts in front-end development. <a class="reference external" href="https://docs.envisioniot.com/docs/analysis-report/en/latest/bi_report/">Learn more >></a></p>
+<p>Provides interactive drag-and-drop user interface that lowers the barrier of acquiring, processing, and analyzing data and help you build data analysis reports rapidly and avoid duplicate efforts in front-end development. <a class="reference external" href="https://docs.envisioniot.com/docs/analysis-report/en/latest/report_overview.html">Learn more >></a></p>
 </div>
 <div class="block-4" id="enos-apis-and-sdks">
 <span id="enos-apis-and-sdks"></span><h2>EnOS APIs and SDKs<a class="headerlink" href="#enos-apis-and-sdks" title="Permalink to this headline"></a></h2>
