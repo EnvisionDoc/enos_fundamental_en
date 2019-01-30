@@ -5,7 +5,8 @@ The APIs to get root CA certificate and CRL are open to public.
 The following two APIs are relative to `https://<enos_cluster_hostname>`, where `https://<enos_cluster_hostname>` refers to the hostname of the EnOS cloud cluster instance. EnOS cloud cluster has the following instances:
 
 - AWS-CN: `https://developer.envisioncn.com`
-- DECADA: `https://portal-decada1.envisioniot.com`
+
+For private cloud instances, this would be own domain name for EnOS.
 
 ## Retrieving root CA certificate
 
