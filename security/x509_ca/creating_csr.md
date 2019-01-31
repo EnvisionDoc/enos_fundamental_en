@@ -32,8 +32,10 @@ The following procedure uses  _OpenSSL_ as an example to create a CSR:
    Email Address []:
    ```
 
-.. note:: You MUST follow the rules defined by CA:
 
-1. All the subject fields except `Email Address` are required.
 
-2. Ensure that the subject fields `Country Name (C)`, `State or Province Name (ST)`, and `Organization Name (O)` are consistent with the CA root certificate.
+.. note:: - You MUST follow the rules defined by CA:
+          1. All the subject fields except `Email Address` are required.
+          2. Ensure that the subject fields `Country Name (C)`, `State or Province Name (ST)`, and `Organization Name (O)` are consistent with the CA root certificate.
+
+<!--end-->
