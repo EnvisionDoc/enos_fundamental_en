@@ -66,10 +66,6 @@ A dataset is a logical table or view that establishes a connection with a source
 
 A device is a physical device that is subordinate to a product. A device has a unique DeviceKey assigned by EnOS. A device can connect directly to the EnOS Cloud.
 
-### device certificate service
-
-The certificate service that is provided by the IoT Hub, which supports authentication for communication sessions between the EnOS Edge and EnOS Cloud.
-
 ### device secret
 
 The device secret issued by EnOS is usually paired with Device key and used in conjunction with device key for one-device-one-key authentication.
@@ -284,10 +280,6 @@ A workflow is a directed acyclic graph consisting of one or more tasks that shar
 An instance may be generated after the workflow is run in the scheduling system, which represents a snapshot of a workflow at a certain time. An instance contains information about the workflow and the running time, status and the logs of the task.
 
 ## X
-
-### X.509 certificate service
-
-In cryptography, X.509 is a standard that defines the format of the public key certificate, which is an electronic document used to prove the ownership of a public key. EnOS provides the X.509 Certificate Service to enforce X.509 certificate-based bi-directional authentication for all communication sessions between the EnOS Edge and IoT Hub.
 
 ## Y
 

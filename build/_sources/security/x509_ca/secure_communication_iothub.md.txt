@@ -4,7 +4,7 @@ Security is a critical in an IoT system. EnOS enforces the following security sc
 
 - The communications between the edge gateway and EnOS IoT Hub are enforced to use certificate-based bi-directional authentication.
 - Support for RSA algorithm to verify signature, with enforcement for 2048 bits.
-- The resource on EnOS is segregated and the API access permissions are controlled by IAM, for more information, see [IAM overview](https://www.envisioniot.com/docs/iam/en/latest/iam_overview.html).
+- The resource on EnOS is segregated and the API access permissions are controlled by IAM, for more information, see [IAM overview](https://docs.eniot.io/docs/iam/en/latest/iam_overview.html).
 
 ## Setup phase
 

@@ -1,0 +1,224 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en-us" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-us" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>X.509 Certificate Service in EnOS &mdash; EnOS Documentation Center 1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../_static/language_data.js"></script>
+    
+
+    
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <!-- <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" /> -->
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="How to get root CA certificate and CRL" href="using_ca_service_api.html" />
+    <link rel="prev" title="Security Overview" href="../security_overview.html" /> 
+</head>
+
+<body id='root'>
+  <div id="header"></div>
+   
+  <div class="enos-doc">
+
+    
+    <nav data-toggle="enos-nav-shift" class="enos-doc-side">
+    <div class="enos-doc-side-scroll">
+    <div class="enos-doc-toc" data-spy="affix" role="navigation" aria-label="main navigation">
+        <div class="enos-doc-search">
+            
+                
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input class="search-input" type="text" name="q" placeholder="Search this document" />
+    <span class="icon-search"></span>
+    <span class="icon-wrong_small"></span>
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+            
+        </div>
+        
+            
+            
+            
+            
+            <p class="caption"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/enos_introduction.html">EnOS Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/technical_architecture.html">EnOS Technical Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/enos_gettingstarted.html">Getting Started with EnOS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/accessing_enos.html">Accessing EnOS</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://docs.eniot.io/docs/iam/en/latest/iam_overview.html">Identity and Access Management</a></li>
+</ul>
+<p class="caption"><span class="caption-text">EnOS Services and Functions</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://docs.eniot.io/docs/enos-edge/en/latest/edge_overview.html">EnOS Edge</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://docs.eniot.io/docs/device-connection/en/latest/device_management_overview.html">Device Management</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://docs.eniot.io/docs/event-management/en/latest/alert_overview.html">Alert Service</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://docs.eniot.io/docs/offline-data/en/latest/gettingstarted.html">Offline Analytics</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://docs.eniot.io/docs/data-explorer/en/latest/dataexplorer_overview.html">Data Explorer</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://docs.eniot.io/docs/analysis-report/en/latest/report_overview.html">Analytics and Report</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://docs.eniot.io/docs/app-development/en/latest/app_dev_overview.html">Application Development</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Security</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../security_overview.html">Security Overview</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">X.509 Certificate Service in EnOS</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../reference/glossary.html">EnOS Glossaries</a></li>
+</ul>
+
+            
+        
+    </div>
+</div>
+<!-- read the docs versions -->
+<div class="versions">
+  
+</div>
+    </nav>
+
+    <section data-toggle="enos-nav-shift" class="enos-doc-content">
+      <div class="enos-doc-content-body">
+          
+          <div class="rst-content">
+          
+            <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div itemprop="articleBody">
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="breadcrumbs">
+    
+      <li><a href="/dev-center/documentation.html">Documentation</a><span class="icon-right"></span></li>
+        
+      <li>X.509 Certificate Service in EnOS</li>
+    
+    
+      <li class="breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/security/x509_ca/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+</div>
+              
+  <div class="section" id="x-509-certificate-service-in-enos">
+<h1>X.509 Certificate Service in EnOS<a class="headerlink" href="#x-509-certificate-service-in-enos" title="Permalink to this headline">¶</a></h1>
+<p>EnOS provides the X.509 Certificate Service to enforce X.509 certificate-based bi-directional authentication for all communication sessions between the EnOS Edge and IoT Hub.</p>
+<p>In cryptography, X.509 is a standard that defines the format of the public key certificate, which is an electronic document used to prove the ownership of a public key. X.509 certificate is defined by the <a class="reference external" href="https://tools.ietf.org/html/rfc5280">RFC5280</a> standard. X.509 certificates are issued by a trusted entity of Public-key Infrastructure (PKI) called Certification Authority (CA).</p>
+<p>Certificate-based authentication has the following benefits over other identification and authentication mechanisms.</p>
+<ul class="simple">
+<li>Asymmetric keys, which ensure that sensitive cryptographic material never leaves the devices</li>
+<li>Stronger client authentication</li>
+</ul>
+<p>There are several concepts you need to know before you start to use the X.509 Certificate Service:</p>
+<ul class="simple">
+<li><strong>Public-key Infrastructure (PKI)</strong>, is a set of roles, policies, and procedures that are needed to create, manage, distribute, use, store, and revoke digital certificates and manage public-key encryption.</li>
+<li><strong>Certification Authority (CA)</strong>, is an entity that issues digital certificates.</li>
+<li><strong>Certificate signing request (CSR)</strong>, is a message sent from the certificate applicant to the certificate authority to apply for an X.509 certificate.</li>
+<li><strong>Certificate Revocation List (CRL)</strong>, is a time-stamped list that maintains the revoked certificates of the CA.</li>
+</ul>
+<p>EnOS X.509 Certificate Service provides the following functions:</p>
+<ul class="simple">
+<li>Retrieving root CA certificate</li>
+<li>Retrieving certification revocation list</li>
+</ul>
+<p>Therefore, IoT hub can get and revoke X.509 certificates for securing the communication between devices and the cloud.</p>
+<p>There functions are available through REST APIs in IoT hub.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="using_ca_service_api.html">How to get root CA certificate and CRL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="secure_communication_iothub.html">Best practice for securing communications between edge gateways and EnOS IoT Hub with X.509 certificates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="creating_csr.html">Creating your Certificate Signing Request (CSR) file</a></li>
+</ul>
+</div>
+</div>
+
+
+            </div>
+            
+            </div>
+            <footer>
+  
+    <div class="enos-footer-nav" role="navigation" aria-label="footer navigation">
+      
+        <a href="../security_overview.html" class="prev" title="Security Overview" accesskey="p" rel="prev"><span class="icon-right"></span> Previous</a>
+      
+      
+        <a href="using_ca_service_api.html" class="next" title="How to get root CA certificate and CRL" accesskey="n" rel="next">Next <span class="icon-right"></span></a>
+      
+    </div>
+   
+
+</footer>
+
+          </div>
+        <div class="enos-doc-local-toc">
+          <div class="toc">
+            <ul>
+<li><a class="reference internal" href="#">X.509 Certificate Service in EnOS</a></li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      <!-- footer --> 
+  
+      <div id="footer"></div>
+    </section>
+    
+  </div>
+  <!-- if you are developing this theme, please change next line to  -->
+  <!-- <script type="text/javascript" src="../../_static/js/theme.js"></script> -->
+  <!-- end if -->
+  <script type="text/javascript" src="../../_static/js/theme.8115fa7dbc259f703b8e.js"></script>
+
+</body>
+</html>
