@@ -34,11 +34,12 @@ To ensure secure connections from the devices and end users to the EnOS portal, 
 
 Devices and end users can establish secure communication sessions to API endpoints that EnOS services provide. HTTPS is used for accessing the REST APIs. For the TLS protected data channel between the devices and EnOS cloud, X.509 certification based bidirectional authentication is adopted, all data is encrypted during transmission.
 
-
 ## Secure Cloud and Data
+
 EnOS takes famous IaaS vendors as its cloud infrastructure providers. The IaaS vendor is responsible for protecting the global infrastructure that hosts all services provisioned in the cloud. The infrastructure is comprised of the hardware, software, networking, and facilities that run the cloud services. For these managed cloud services, the IaaS vendor manages basic security operations such as guest operating system patching, firewall configuration, and disaster recovery.
 
 From the security perspective, adopting an IaaS vendor brings the following benefits:
+
 - Industry-standard security compliance.
 - State-of-the-art physical and environmental security solutions.
 - High availability, which promotes business continuity.
@@ -61,6 +62,7 @@ In addition, EnOS also has capability of providing dedicated storage for those c
 While the underlying IaaS secures the physical venues, network, operating systems, and managed services. EnOS secures the applications that are hosted on the platform, including applications that manage massive IoT assets.
 
 EnOS secures applications through the following means:
+
 - Identity and Access Management
 - Network protection
 - Data encryption
@@ -68,25 +70,31 @@ EnOS secures applications through the following means:
 - Security Auditing
 
 #### Identity and Access Management
+
 Identity and Access Management (IAM) enables you to create and manage permissions for EnOS resources. IAM unifies access control for Cloud Platform services into a single system and presents a consistent set of operations. EnOS applies the IAM scheme to support multi-tenancy, where each tenant in EnOS is managed as an organizational unit. Data that belongs to different organizations are securely segregated and can only be accessed by users that are registered to the organization.
 
 The built-in IAM of EnOS schemes provide capabilities of identity management, authentication, authorization, and auditing.
 
 #### Network Protection
+
 EnOS hosts several automated monitoring tools to detect abnormal and unauthorized activities and situations at ingress and egress points. These tools monitor the server and network usage, port scanning activities, application usage, and unauthorized intrusion attempts. The tools allow custom performance metric thresholds to be set for abnormal activities.
 
 #### Data Encryption
+
 Sensitive data, defined by built-in and custom rules, is encrypted before being put into files or databases. Decryption happens automatically when data is retrieved through the EnOS API.
 
 #### Logging and Monitoring
+
 Centralized logging service in EnOS is configured to aggregate activity logs and show security related metrics at the real-time.
 
 EnOS logs all user activities to the portal and API invocations. The activity log contains details about each access request including the request type, requested resource, requestor’s IP, and the date and time of the request. Alerts are triggered when defined thresholds are exceeded.
 
 #### Security Auditing
+
 Accounts with proper privileges may access authorized resources via EnOS service APIs and portal. Access validation is performed for each access attempt. Success or failure attempts are recorded in IAM logs for auditing and abnormality detection purposes.
 
 ## Conclusion
+
 Security is integrated into every aspect of EnOS. EnOS offers you unique security advantages derived from protect, governance and defense for the IoT Security, privacy and ethics, and compliance.
 
 Modern applications are continuously moving to the cloud because the cloud not only provides scalability, high performance and reliability, but also provides very high security standard.

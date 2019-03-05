@@ -1,6 +1,7 @@
 # EnOS Technical Architecture
 
 This article describes the architecture of the EnOS AIoT platform. The architecture of EnOS consists of the EnOS Edge layer and EnOS Cloud layer.
+
 - EnOS Edge connects devices to EnOS Cloud. Device data is transmitted through supported protocols from EnOS Edge to EnOS Cloud, in the format of standard models that are predefined. Edge computing is supported wherever needed.
 - EnOS Cloud receives device data through MQTT protocol and data will go through its stream computing engine to distributed storage cluster. EnOS cloud support both EnOS Edge and third-party edge.
 
@@ -11,17 +12,17 @@ EnOS Edge is the front end of the EnOS platform. In close contact with your ente
 
 .. image:: media/edge_architecture.png
 
--   **Connectivity engine** provides rich industry standard protocols. User can configure the engine to achieve data connection from remote devices.
+- **Connectivity engine** provides rich industry standard protocols. User can configure the engine to achieve data connection from remote devices.
 
--   **Redis** provides content data management.
+- **Redis** provides content data management.
 
--   **AMQ message engine** is the messaging broker middleware that routes data to other core modules.
+- **AMQ message engine** is the messaging broker middleware that routes data to other core modules.
 
--   **Model data management** module stores device model data from cloud.
+- **Model data management** module stores device model data from cloud.
 
--   **HA engine** provides high availability for ensure system resilience.
+- **HA engine** provides high availability for ensure system resilience.
 
--   **Cloud access interface** provides cloud-based communication management, including authentication and authorization, MQTT client and etc.
+- **Cloud access interface** provides cloud-based communication management, including authentication and authorization, MQTT client and etc.
 
 ## EnOS Cloud
 
@@ -56,13 +57,13 @@ Other open source components act as the base data storage system, among which Co
 
 The core engine layer of EnOS provides the following engines:
 
--   **Event engine** provides event alerts. Event engine obtains device abnormality information through event rules such as cross-threshold and combination of complex rules.
+- **Event engine** provides event alerts. Event engine obtains device abnormality information through event rules such as cross-threshold and combination of complex rules.
 
--   **Rule engine** functions as an IoT Hub. Rule engine distributes data to different engines for further processing based on rules configured.
+- **Rule engine** functions as an IoT Hub. Rule engine distributes data to different engines for further processing based on rules configured.
 
--   **Stream computing and batch job process engines** provide core computing capability and can sup custom computing and data storage requirements from applications.
+- **Stream computing and batch job process engines** provide core computing capability and can sup custom computing and data storage requirements from applications.
 
--   **AI engine** is a dedicated engine for machine learning.
+- **AI engine** is a dedicated engine for machine learning.
 
 The core engine layer facilitates application development through the service
 layer.
@@ -71,13 +72,13 @@ layer.
 
 In the service layer, functions of the service modules are described as follows:
 
--   **Edge management service** supports full lifecycle management for edge computing devices. The service can monitor and connect device states.
+- **Edge management service** supports full lifecycle management for edge computing devices. The service can monitor and connect device states.
 
--   **Device data access service** provides data ingestion and acquisition service through API and SDK with bi-directional access to data access points and calculation points.
+- **Device data access service** provides data ingestion and acquisition service through API and SDK with bi-directional access to data access points and calculation points.
 
--   **Common Data Service** provides data services such as weather, electricity price, and other common data in the IoT industrial.
+- **Common Data Service** provides data services such as weather, electricity price, and other common data in the IoT industrial.
 
--   **Application management suite** provides application management and debugging tools, such as access control and system isolation.
+- **Application management suite** provides application management and debugging tools, such as access control and system isolation.
 
 ### Device Model and User Access Modules
 

@@ -19,6 +19,7 @@ An asset is an instance of a model, which can either be one device or a combinat
 An asset tree of an enterprise is formed through hierarchical topology.
 
 ### attributes
+
 An attribute is a static description of a device. A static attribute allows the user to customize its name as well as the corresponding identifier. The name is equivalent to a description that allows Chinese input(e.g., longitude).
 
 ## B
@@ -30,6 +31,7 @@ Batch computing is a way of data processing (usually limited data processing), t
 ## C
 
 ### custom resources
+
 Custom resources are additional resources an organization needs to purchase or apply for.
 
 ## D

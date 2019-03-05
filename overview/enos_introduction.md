@@ -18,13 +18,14 @@ EnOS Edge provides capabilities of device data acquisition, device controlling, 
 
 ## Major Advantages
 
-**Extensive connectivity**
+### Extensive connectivity
 
 Simplified ubiquitous connectivity based on rich protocol library.
+
 - EnOS supports direct device connections through the MQTT protocol and connections through the EnOS Edge or third-party edge products according to your business needs.
 - EnOS Edge supports a rich set of industry-standard protocols and some private protocols of mainstream IoT vendors. EnOS also provides toolsets to help you develop your own protocol.
 
-**Deployment flexibility**
+### Deployment flexibility
 
 Enterprise-grade software stack with flexible deployment options (public, private, and hybrid cloud).
 
@@ -34,14 +35,13 @@ EnOS can also be deployed in virtual private cloud (VPC) on public cloud hosting
 
 EnOS is compatible with most popular IaaS vendors such as Amazon AWS and Microsoft Azure. In order to keep the best compatibility, Public EnOS clusters only depends on the virtual machines and NFS services from selected IaaS providers. Many major components of EnOS IoT Core are built with state-of-the-art open source software. They are well supported by common OS environment running on virtual machines. EnOS cloud integrates with the management API of IaaS, making it possible to adjust the scale of an existing cluster or create new clusters in automation.
 
-
-**Domain expertise**
+### Domain expertise
 
 Domain driven data architecture promised by rich experience with smart energy devices and scenarios.
 
 Through extensive domain metadata, EnOS supports standardized data acquisition policies, ingestion rules, event handling rules, data retention policies, ODS schema, access control policies and data quality policies. With configurable metadata mapping from the data source to the data target, this process will significantly reduce the effort required for data cleansing and normalization.
 
-**Eco-system**
+### Eco-system
 
 Seamless integration with native and third-party applications, end-to-end tooling that empowers you to build your own platform.
 

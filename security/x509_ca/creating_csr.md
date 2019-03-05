@@ -1,4 +1,4 @@
-## Creating your Certificate Signing Request (CSR) file
+# Creating your Certificate Signing Request (CSR) file
 
 To obtain an X.509 certificate from the EnOS CA, you need to create a CSR file in your device or application.
 
@@ -31,8 +31,6 @@ The following procedure uses  _OpenSSL_ as an example to create a CSR:
    Common Name (e.g. server FQDN or YOUR name) []:
    Email Address []:
    ```
-
-
 
 .. note:: - You MUST follow the rules defined by CA:
           1. All the subject fields except `Email Address` are required.

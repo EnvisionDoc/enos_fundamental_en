@@ -1,5 +1,5 @@
 X.509 Certificate Service in EnOS
-=================================
+==================================
 
 EnOS provides the X.509 Certificate Service to enforce X.509 certificate-based bi-directional authentication for all communication sessions between the EnOS Edge and IoT Hub.
 

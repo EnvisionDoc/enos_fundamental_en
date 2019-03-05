@@ -1,6 +1,6 @@
 # EnOS Services and Functions Overview
 
-EnOS™ is an integrated, secure, and open IoT operating system with comprehensive features and services for device provisioning and management, data integration and processing, and data visualization for business insights. EnOS provides end-to-end tooling to enable rapid deployment of Software-as-a-Service (SaaS) applications that integrate and process heterogeneous and dynamic data from smart IoT devices and across enterprise information systems.
+EnOS™ is an integrated, secure, and open IoT operating system with comprehensive features and services for device management, data integration and processing, and data visualization for business insights. EnOS provides end-to-end tooling to enable rapid deployment of Software-as-a-Service (SaaS) applications that integrate and process heterogeneous and dynamic data from smart IoT devices and across enterprise information systems.
 
 
 <div class="block-4" id="device-modelling">
@@ -9,7 +9,7 @@ EnOS™ is an integrated, secure, and open IoT operating system with comprehensi
 </div>
 <div class="block-4" id="device-provisioning">
 <span id="device-provisioning"></span><h2>Device Management<a class="headerlink" href="#device-provisioning" title="Permalink to this headline"></a></h2>
-<p>Enables rapid device provisioning and device lifecycle management. Secures connection between devices and EnOS Cloud through device authentication and certificate-based data encryption. <a class="reference external" href="https://www.envisioniot.com/docs/device-connection/en/latest/deviceconnection_overview">Learn more >></a></p>
+<p>Enables rapid device management and device lifecycle management. Secures connection between devices and EnOS Cloud through device authentication and certificate-based data encryption. <a class="reference external" href="https://www.envisioniot.com/docs/device-connection/en/latest/deviceconnection_overview">Learn more >></a></p>
 </div>
 <div class="block-4" id="event-management">
 <span id="event-management"></span><h2>Device Alerts<a class="headerlink" href="#event-management" title="Permalink to this headline"></a></h2>
@@ -33,7 +33,7 @@ EnOS™ is an integrated, secure, and open IoT operating system with comprehensi
 processing, and enables data-driven, collaborative, interactive data analytics. <a class="reference external" href="https://www.envisioniot.com/docs/data_explorer/en/latest/dataexplorer_overview.html">Learn more >></a></p>
 </div>
 <div class="block-4" id="bi-report">
-<span id="bi-report"></span><h2>BI &amp; Report<a class="headerlink" href="#bi-report" title="Permalink to this headline"></a></h2>
+<span id="bi-report"></span><h2>Dataamp; Report<a class="headerlink" href="#bi-report" title="Permalink to this headline"></a></h2>
 <p>Provides interactive drag-and-drop user interface that lowers the barrier of acquiring, processing, and analyzing data and help you build data analysis reports rapidly and avoid duplicate efforts in front-end development. <a class="reference external" href="https://www.envisioniot.com/docs/analysis-report/en/latest/report_overview.html">Learn more >></a></p>
 </div>
 <div class="block-4" id="enos-apis-and-sdks">

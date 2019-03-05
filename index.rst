@@ -1,12 +1,12 @@
-﻿*****************************
-EnOS™ AIoT Operating System
-*****************************
+﻿EnOS AIoT Operating System
+==============================
 
 .. toctree::
    :maxdepth: 1
    :caption: Release Notes
 
    releasenotes/20190221
+   releasenotes/20190305
 
 .. toctree::
    :maxdepth: 1
@@ -30,3 +30,10 @@ EnOS™ AIoT Operating System
    :caption: Reference
 
    reference/glossary
+
+Downloads
+""""""""
+    pdf_ htmlzip_ epub_
+.. _pdf: https://www.envisioniot.com/projects/enos/downloads/pdf/latest/
+.. _htmlzip: https://www.envisioniot.com/projects/enos/downloads/htmlzip/latest/
+.. _epub: https://www.envisioniot.com/projects/enos/downloads/epub/latest/

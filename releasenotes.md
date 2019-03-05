@@ -47,6 +47,7 @@ Support to activate devices through the `productKey`, `productSecret` and `devic
 ### Updates to Device SDK for Java
 
 The device SDK for Java adds support for:
+
 - NTP synchronization
 - Dynamic Activation of Devices
 
@@ -54,10 +55,9 @@ To obtain the latest Java SDK, go to https://github.com/EnvisionIot/enos-mqtt-sd
 
 ### Data Asset Management
 
-Data Asset Management is a new service of EnOS that targets to help you manage your data assets more efficiently. The service mainly brings the following benefits: 
+Data Asset Management is a new service of EnOS that targets to help you manage your data assets more efficiently. The service mainly brings the following benefits:
+
 - lower cost of datastore due to more flexible configuration
 - stronger data analytics service
 - lower barrier of stream data processing development and higher data development efficiency
 - more effective data retention and access based on domain expertise accumulation.
-
-

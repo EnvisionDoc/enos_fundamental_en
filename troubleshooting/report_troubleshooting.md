@@ -1,4 +1,4 @@
-# Troubleshooting issues with BI&Report
+# Troubleshooting issues with Data Report
 
 
 ## Statement of issue A
