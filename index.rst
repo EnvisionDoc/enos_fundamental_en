@@ -3,10 +3,10 @@
 
 .. toctree::
    :maxdepth: 1
-   :caption: Release Notes
+   :caption: Update Notices
 
-   releasenotes/20190221
-   releasenotes/20190305
+   releasenotes/index.rst
+   doc_updates
 
 .. toctree::
    :maxdepth: 1
@@ -31,9 +31,3 @@
 
    reference/glossary
 
-Downloads
-""""""""
-    pdf_ htmlzip_ epub_
-.. _pdf: https://www.envisioniot.com/projects/enos/downloads/pdf/latest/
-.. _htmlzip: https://www.envisioniot.com/projects/enos/downloads/htmlzip/latest/
-.. _epub: https://www.envisioniot.com/projects/enos/downloads/epub/latest/
