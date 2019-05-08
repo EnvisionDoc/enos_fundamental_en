@@ -27,6 +27,14 @@
 
 .. toctree::
    :maxdepth: 1
+   :caption: Resource Management
+
+   resourcemanagement/overview
+   resourcemanagement/getstarted
+   resourcemanagement/reference
+
+.. toctree::
+   :maxdepth: 1
    :caption: Reference
 
    reference/glossary
