@@ -13,7 +13,6 @@
    :caption: Overview
 
    overview/enos_introduction
-   overview/technical_architecture
    overview/enos_gettingstarted
    overview/accessing_enos
    Identity and Access Management <https://www.envisioniot.com/docs/iam/en/latest/iam_overview.html>
