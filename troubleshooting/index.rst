@@ -1,5 +1,5 @@
 Troubleshooting
-=================
+--------------------------
 
 Troubleshooting is a systematic approach to solve a problem. The goal of troubleshooting is to determine why something does not work as expected and how to resolve the problem.
 

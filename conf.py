@@ -60,7 +60,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'EnOS Fundamental'
-copyright = u'2019, EnOS'
+copyright = u'2018, EnOS'
 author = u'Envision Digital'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -239,7 +239,7 @@ latex_elements = {
 
             \vspace{5mm}
 
-            \huge \textmd{Version}\textbf{ latest}
+            \huge \textmd{Version}\textbf{ 1.0}
             %% \vfill adds at the bottom
             \vfill
             \centerline{\fontsize{16pt}{\baselineskip}\selectfont \textbf{Envision Digital}}
