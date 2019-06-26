@@ -12,6 +12,18 @@ The specification of the computing resource is defined by the number of data poi
 
 To store the data ingested from your devices for processing or further analysis, you need to apply for TSDB resource, which includes write resource and storage resource. Currently, only a standard specification can be applied for.
 
+**Batch computing resource**
+
+Computing capability for offline data analytics jobs. Batch computing resources can be requested based on computing unit (CU), with two kinds of computing specifications.
+
+**Data Warehouse Resources**
+
+A subject-oriented and integrated data storage environment for data analysis. Select the appropriate storage size according to actual business requirements (10 ~ 1,000G).
+
+**File Storage HDFS Resources**
+
+HDFS is used for big data analysis and storage scenarios. Select the appropriate storage size according to actual business requirements (10 ~ 1,000G). 
+
 For details about the computing and storage resource specification, see [Resource Specification](/docs/enos/en/latest/resourcemanagement/reference.html).
 
 ## Next Unit

@@ -17,12 +17,12 @@ To connect a device into EnOS, you'll typically need:
 
 The following quick start guides walk you though the process of device registeration and onboarding to EnOS: 
 
-- [Connecting a Smart Device to EnOS Cloud (without Edge)](/docs/device-connection/en/latest/quickstart/gettingstarted_device_connection)
-- [Connecting a Non-smart Device to EnOS Cloud via Edge](/docs/device-connection/en/latest/quickstart/gettingstarted_edge_connection)
+- [Connecting a Smart Device into EnOS Cloud](/docs/device-connection/en/latest/quickstart/gettingstarted_device_connection)
+- [Connecting a Non-Smart Device to EnOS Cloud via Edge](/docs/device-connection/en/latest/quickstart/gettingstarted_edge_connection)
 
-The above guides use Java SDK as an example for device side development. In addition to Java SDK, EnOS also provides open source SDKs for other programing languages. For more information, see [Using Device SDK](/docs/device-connection/en/latest/howto/device/develop/using_java_sdk).
+The above guides use Java SDK as an example for device side development. In addition to Java SDK, EnOS also provides open source SDKs for other programing languages. For more information, see [Using the Device SDK](/docs/device-connection/en/latest/howto/device/develop/using_java_sdk).
 
-Don't find the programing language that you want, no worries, we also open our device protocol standards. As long as you send messages to EnOS via specific topics and in our standard message format, your devices can connect to EnOS and starts to transmit data. For more information, see [No Using Device SDK](/docs/device-connection/en/latest/howto/device/develop/using_non_sdk).
+Don't find the programing language that you want, no worries, we also open our device protocol standards. As long as you send messages to EnOS via specific topics and in our standard message format, your devices can connect to EnOS and starts to transmit data. For more information, see [Not Using SDK](/docs/device-connection/en/latest/howto/device/develop/using_non_sdk).
 
 
 ## Find Out Other Options of Data Ingestion

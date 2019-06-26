@@ -12,27 +12,27 @@ To get started with EnOS, you will need to obtain an account first so that you c
 
 This tutorial includes the following units:
 
-> [Registering for an Account](account)
+> [Unit 1. Registering for an Account](account)
 >
 > 5 minutes
 
-> [Planning for Resource](planning)
+> [Unit 2. Planning for Resource](planning)
 >
 > 5 minutes
 
-> [Connecting and Managing Devices](device_connection)
+> [Unit 3. Connecting and Managing Devices](device_connection)
 >
 > 10 minutes
 
-> [Managing and Processing Real-time Data](realtime_data_development) 
+> [Unit 4. Managing and Processing Real-time Data](realtime_data_development) 
 >
 > 20 minutes
 
-> [Integrating Offline data and Batch Processing](batch_processing)
+> [Unit 5. Integrating Offline data and Batch Processing](batch_processing)
 >
 > 20 minutes
 
-> [Developing Applications](app_development)
+> [Unit 6. Developing Applications](app_development)
 >
 > 20 minutes
 

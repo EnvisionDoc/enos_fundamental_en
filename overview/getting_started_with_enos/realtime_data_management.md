@@ -6,13 +6,13 @@ Before you dive into the offering, you'll want to get yourself familiar with the
 
 ## Real-Time Data Flow
 
-To be able to efficiently manage your data, you'll first need to understand the [Real-Time Data Flow](/docs/data-asset/en/latest/learn/data_flow). 
+To be able to efficiently manage your data, you'll first need to understand the [Real-time Data Flow](/docs/data-asset/en/latest/learn/data_flow). 
 
 ## Configure Storage Policy
 
 Note that the raw data uploaded to EnOS and the stream processing results are NOT stored when you don't configure data storage policy to define which data goes where. 
 
-The storage policy gives you flexibility to determine what data to store, where to store, and how long to store. The design of EnOS data store takes best practices of energy/utility domain into consideration, by allowing you to store time-series data into different buckets according to the data types and provides different APIs for you to access data in different bucket to increase data access efficiency. For more information about data storage policy, see [Configuring TSDB Storage Type](/docs/data-asset/en/latest/configuring_tsdb_storage).
+The storage policy gives you flexibility to determine what data to store, where to store, and how long to store. The design of EnOS data store takes best practices of energy/utility domain into consideration, by allowing you to store time-series data into different buckets according to the data types and provides different APIs for you to access data in different bucket to increase data access efficiency. For more information about data storage policy, see [Configuring TSDB Storage](/docs/data-asset/en/latest/configuring_tsdb_storage).
 
 
 ## Develop Stream Analytics Job
@@ -24,13 +24,13 @@ For a deep dive into stream data processing on EnOS, see [Stream Analytics](/doc
 
 ## Get Data through APIs
 
-As mentioned above, EnOS provides a data service API for each TSDB storage type. For more information about these APIs, see [Getting Stored Data with EnOS APIs](/docs/data-asset/en/latest/howto/getting_stored_data) documentation.
+As mentioned above, EnOS provides a data service API for each TSDB storage type. For more information about these APIs, see [Getting Stored Data with EnOS APIs](/docs/data-asset/en/latest/howto/obtain/getting_stored_data.html) documentation.
 
 ## Subscribe to Data
 
 You can also use the Data Subscription service to get your data more efficiently. The Data Subscription Service improves API calling efficiency by actively push data to the subscriber applications when new data arrives. The service allows you to subscribe to the following types of data:
 
-- [Subscribing to Real-Time Data](/docs/data-asset/en/latest/quickstart/gettingstarted_subscribe_realtime)
+- [Subscribing to Real-time Data](/docs/data-asset/en/latest/quickstart/gettingstarted_subscribe_realtime)
 - [Subscribing to Alert Data](/docs/data-asset/en/latest/quickstart/gettingstarted_subscribe_alerts)
 
 ## Next Unit
