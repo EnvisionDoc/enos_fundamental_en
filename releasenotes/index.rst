@@ -1,8 +1,7 @@
 Release Notes
 ===============
 
-
-EnOS improves on an ongoing basis. To stay up-to-date with the most recent developments, this section provides the following information:
+EnOS improves on an ongoing basis. To help you stay current with our most recent development dynamics, this section provides the following information:
 
 - The latest releases
 - Known issues
@@ -13,7 +12,7 @@ EnOS improves on an ongoing basis. To stay up-to-date with the most recent devel
    :maxdepth: 1
    :caption: Release Notes
 
-   201906
+   20190628
    201905
    20190410
    20190305
