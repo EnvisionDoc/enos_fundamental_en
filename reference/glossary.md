@@ -30,6 +30,10 @@ Batch computing is a way of data processing (usually limited data processing), t
 
 ## C
 
+### container service
+
+EnOS Service Hosting Center provides container deployment and management for applications. Container service mainly includes deployment (and stateful set) management, configuration (config map and secret) management, routing (service and route) management, and storage capacity management.
+
 ### custom resources
 
 Custom resources are additional resources an organization needs to purchase or apply for.
@@ -213,6 +217,10 @@ A service is a capability or method by which a device can be called externally. 
 ### service account
 
 A service account is the account that EnOS assigns to an application or service. The service account uniquely identifies an application. The service account is required when calling EnOS APIs to access the EnOS resources and when accessing subscribed asset data through EnOS SDK.
+
+### service hosting
+
+EnOS Service Hosting Center (SHC) provides high performance and scalable container application management service for application developers, including creating and managing application development projects, configuring clusters and containers, and building and deploying applications quickly.
 
 ### site
 
