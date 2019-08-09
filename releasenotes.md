@@ -42,7 +42,7 @@ Because the dashboard features adopts a static visualization panel technology, d
 
 ### Support of Dynamic Activation of Devices
 
-Support to activate devices through the `productKey`, `productSecret` and `deviceKey`. The `deviceSecret` is retrieved dymanically when the device attempts to log into EnOS Cloud. Dynamic activiation helps to achieve batch registeration and login of devices. For more information about dymanic activation, see [Secret-based Authentication](https://www.envisioniot.com/docs/device-connection/en/latest/secretbased_authentication.html).
+Support to activate devices through the `productKey`, `productSecret` and `deviceKey`. The `deviceSecret` is retrieved dymanically when the device attempts to log into EnOS Cloud. Dynamic activiation helps to achieve batch registeration and login of devices. For more information about dymanic activation, see [Secret-based Authentication](https://docs.eniot.io/docs/device-connection/en/latest/secretbased_authentication.html).
 
 ### Updates to Device SDK for Java
 

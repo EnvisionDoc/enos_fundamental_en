@@ -13,6 +13,8 @@
    :caption: Overview
 
    overview/enos_introduction
+   overview/accessing_enos
+   overview/ui_conventions
    overview/getting_started_with_enos/index
    
 .. toctree::
@@ -21,7 +23,7 @@
 
    security/security_overview
    security/x509_ca/index
-   Identity and Access Management <http://www.envisioniot.com/docs/iam/en/latest/iam_overview.html>
+   Identity and Access Management <http://docs.eniot.io/docs/iam/en/latest/iam_overview.html>
 
 .. toctree::
    :maxdepth: 1

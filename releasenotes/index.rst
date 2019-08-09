@@ -12,6 +12,7 @@ EnOS improves on an ongoing basis. To help you stay current with our most recent
    :maxdepth: 1
    :caption: Release Notes
 
+   201908
    201906
    201905
    20190410
