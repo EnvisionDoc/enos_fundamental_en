@@ -20,7 +20,7 @@ To apply for an organization account, select **Organization** when you sign up t
 
 ## Connect and Manage
 
-Now welcome onboard! The first thing you start to do on an IoT platform is to connect your devices and data. EnOS provides comprehensive tooling to help you with device connectivity and management. For more information, see [About Device Management](https://docs.eniot.io/docs/device-connection/en/latest/device_management_overview.html).
+Now welcome onboard! The first thing you start to do on an IoT platform is to connect your devices and data. EnOS provides comprehensive tooling to help you with device connectivity and management. For more information, see [About Device Management](/docs/device-connection/en/latest/device_management_overview.html).
 
 ## Analyze
 

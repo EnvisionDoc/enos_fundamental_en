@@ -12,11 +12,18 @@ The procedure for managing stream analytics resources is as follows:
 2. View resource allocation status
 3. Extend stream analytics resource allocation
 
-## Requesting  stream analytics resources
+## Requesting stream analytics resources
 1. Log in EnOS and click **Resource Management** from the left navigation panel.
+
 2. Under the **Data Asset Management** tab, click the **Request Resource** button for Stream Analytics. 
+
+   .. image:: media/requesting_resource.png
+
 3. View the description of computing resource specification, estimate the needed resources, and select a resource specification.
+
 4. Click the **Request Now** button to submit the request. The system will allocate resources according to the request review result.
+
+   .. image:: media/selecting_spec.png
 
 ### Viewing resource allocation status
 After submitting the resource request, return to the **Resource Management** page to view the status of resource allocation.

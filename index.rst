@@ -3,9 +3,10 @@
 
 .. toctree::
    :maxdepth: 1
-   :caption: Update Notices
+   :caption: Release Information
 
-   releasenotes/index.rst
+   releasenotes/index
+   releasenotes/knownissue
    doc_updates
 
 .. toctree::
@@ -16,26 +17,26 @@
    overview/accessing_enos
    overview/ui_conventions
    overview/getting_started_with_enos/index
-   
+
 .. toctree::
    :maxdepth: 1
    :caption: Security
 
    security/security_overview
    security/x509_ca/index
-   Identity and Access Management <http://docs.eniot.io/docs/iam/en/latest/iam_overview.html>
+   Identity and Access Management </docs/iam/en/latest/iam_overview>
 
 .. toctree::
    :maxdepth: 1
    :caption: Resource Management
 
    resourcemanagement/overview
-   resourcemanagement/getstarted
    resourcemanagement/reference
+   resourcemanagement/getstarted
 
 .. toctree::
    :maxdepth: 1
    :caption: Reference
 
    reference/glossary
-
+   

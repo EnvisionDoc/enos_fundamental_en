@@ -51,8 +51,8 @@ Batch computing resources can be requested based on computing unit (CU), with tw
 
 ## Data Warehouse Resources
 
-Data warehouse is a subject-oriented and integrated data storage environment for data analysis. Select the appropriate storage size according to actual business requirements. Storage capacity that can be requested is 10 ~ 1,000 GB.
+Data warehouse (EnOS Hive) is a subject-oriented and integrated data storage environment for data analysis. Select the appropriate storage size according to actual business requirements. Storage capacity that can be requested is 10 ~ 1,000 GB.
 
 ## File Storage HDFS Resources
 
-HDFS is used for big data analysis and storage scenarios. Select the appropriate storage size according to actual business requirements. Storage capacity that can be requested is 10 ~ 1,000 GB.
+HDFS is used for big data analysis and storage scenarios (including data archiving). Select the appropriate storage size according to actual business requirements. Storage capacity that can be requested is 10 ~ 1,000 GB.
