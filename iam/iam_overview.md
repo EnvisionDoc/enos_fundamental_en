@@ -30,9 +30,9 @@ IAM provides different authentication methods for different account types.
 
 - Devices and edges use X.509 certifications to establish the secure data communication tunnels with EnOS Cloud. For more information, see [Best Practice for Securing Communications between Edge Gateways and EnOS IoT Hub with X.509 Certificates](/docs/enos/en/latest/security/x509_ca/secure_communication_iothub.html).<!--Devices with TPM chips will be authenticated with its encrypted certifications stored in the hardware.-->
 =======
-- Service accounts use access keys (i.e. digital signatures) to be authenticated by EnOS. For more information, see [Application Development Overview](/docs/app-development/en/2.0.9/app_dev_overview.html).
+- Service accounts use access keys (i.e. digital signatures) to be authenticated by EnOS. For more information, see [Application Development Overview](/docs/app-development/en/latest/app_dev_overview.html).
 
-- Devices and edges use X.509 certifications to establish the secure data communication tunnels with EnOS Cloud. For more information, see [Best Practice for Securing Communications between Edge Gateways and EnOS IoT Hub with X.509 Certificates](/docs/enos/en/2.0.9/security/x509_ca/secure_communication_iothub.html).<!--Devices with TPM chips will be authenticated with its encrypted certifications stored in the hardware.-->
+- Devices and edges use X.509 certifications to establish the secure data communication tunnels with EnOS Cloud. For more information, see [Best Practice for Securing Communications between Edge Gateways and EnOS IoT Hub with X.509 Certificates](/docs/enos/en/latest/security/x509_ca/secure_communication_iothub.html).<!--Devices with TPM chips will be authenticated with its encrypted certifications stored in the hardware.-->
 >>>>>>> dev
 
 ## Authorization
