@@ -20,11 +20,15 @@ Computing resource for data analytics. To run data integration and off-line data
 
 **Data Warehouse**
 
-Storage resources for data to be stored in EnOS Hive. To run off-line data analytics jobs and save data in EnOS Hive,  you need to request Data Warehouse resource.
+Storage resource for data to be stored in EnOS Hive. To run off-line data analytics jobs and save data in EnOS Hive, you need to request Data Warehouse resource.
+
+**Data Explorer**
+
+Sandbox resource for using data explorer to develop data processing and analytics programs. To run scripts to transform data and extract insights from data, you need to request Data Explorer resource.
 
 **File Storage HDFS**
 
-Storage resources for files to be stored in HDFS. To run data analytics jobs and save files in HDFS, or run data archiving jobs to store files in HDFS, you need to request File Storage HDFS resource.
+Storage resource for files to be stored in HDFS. To run data analytics jobs and save files in HDFS, or run data archiving jobs to store files in HDFS, you need to request File Storage HDFS resource.
 
 Different resource specifications correspond to different data processing and storage capabilities. For detailed information about the capability of resource units, see [Resource Specification](reference).
 
@@ -67,6 +71,6 @@ Computing capability for offline data analytics jobs. If the jobs require higher
 ## Capacity and Limitations
 
 - Currently, each organization can request 1 resource instance for stream analytics, TSDB, data warehouse, and file storage HDFS. 
-- An organization can request 3 resource instances for batch computing, with globally unique queue names.
+- Each organization can request 3 resource instances for batch computing and data explorer, with globally unique queue and sandbox names.
 
 For the capacity of standard resource instances, see [Resource Specification](reference).

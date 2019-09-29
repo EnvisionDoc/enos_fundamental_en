@@ -1,6 +1,6 @@
 # EnOS Console GUI Conventions
 
-This document describes the common components and interaction behavior of the EnOS Console based on a graphical interface.
+This document describes the common components and interaction behavior of the EnOS™ Console based on a graphical interface.
 
 ## Adding Frequently Fsed Service Menus to Favorite
 

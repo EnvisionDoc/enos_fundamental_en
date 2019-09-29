@@ -53,6 +53,10 @@ Batch computing resources can be requested based on computing unit (CU), with tw
 
 Data warehouse (EnOS Hive) is a subject-oriented and integrated data storage environment for data analysis. Select the appropriate storage size according to actual business requirements. Storage capacity that can be requested is 10 ~ 1,000 GB.
 
+## Data Explorer Resources
+
+Data Explorer sandbox provides running environment for the data analytics applications developed by data scientists and data engineers. Select the appropriate CPU, memory, and storage according to actual business requirements. CPU that can be requested is 2~10 vcore; memory that can be requested is 4~20GB; storage that can be requested is 1~10GB.
+
 ## File Storage HDFS Resources
 
 HDFS is used for big data analysis and storage scenarios (including data archiving). Select the appropriate storage size according to actual business requirements. Storage capacity that can be requested is 10 ~ 1,000 GB.
