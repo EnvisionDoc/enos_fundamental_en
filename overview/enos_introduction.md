@@ -12,27 +12,27 @@ EnOS Cloud provides fundamental capabilities of model-based device management, d
 
 ### Device Management Offering
 
-Device Management Offering helps abstract device models and allows connection of heterogeneous of devices in various domains such as industry, smart city, and smart building. By enabling secure and reliable connectivity, EnOS helps to achieve the real-time monitoring of devices and the end-to-end device lifecycle management from the cloud. For more information about the services, see [Device Management](/docs/device-connection/en/latest/device_management_overview).
+Device Management Offering helps abstract device models and allows connection of heterogeneous of devices in various domains such as industry, smart city, and smart building. By enabling secure and reliable connectivity, EnOS helps to achieve the real-time monitoring of devices and the end-to-end device lifecycle management from the cloud. For more information about the services, see [Device Management](/docs/device-connection/en/2.0.8/device_management_overview).
 
 ### Data Asset Management Offering
 
-Data Asset Management Offering aims to help coap with the challenges of managing huge amount of data resulted from extensive connectivity. With industry knowledge accumulation, the Data Asset Management Services enable enterprises to manage data end-to-end on EnOS securely, effectively, flexibly, while with optimized cost. Through lowering barrier of stream data analytics, optimizing storage schema based on industry scenarios, opening storage policy configurability, and increasing data acquisition efficiency, Data Asset Management Services help reduce your total cost of ownership on data. For more information about the services, see [Data Asset Management](/docs/data-asset/en/latest/data_asset_overview).
+Data Asset Management Offering aims to help coap with the challenges of managing huge amount of data resulted from extensive connectivity. With industry knowledge accumulation, the Data Asset Management Services enable enterprises to manage data end-to-end on EnOS securely, effectively, flexibly, while with optimized cost. Through lowering barrier of stream data analytics, optimizing storage schema based on industry scenarios, opening storage policy configurability, and increasing data acquisition efficiency, Data Asset Management Services help reduce your total cost of ownership on data. For more information about the services, see [Data Asset Management](/docs/data-asset/en/2.0.8/data_asset_overview).
 
 ### Data Analytics Offering
 
-Data Analytics Services provides large volume of data storage with low-cost and high computing capacity in a distributed architecture to help you integrate and process large volumnes of data at high speed. The services provides tools help you extract, transform, and load data from heterogeneous data sources such as your existing IT and OT systems and quickly obtain insights, explore new business models, and make your business decisions. With robust AI-ready architecture, you can also apply AI/machine learning as you integrate your data into EnOS. For more information about the services, see [Data Analytics](/docs/offline-data/en/latest/datalake_analytics_overview).
+Data Analytics Services provides large volume of data storage with low-cost and high computing capacity in a distributed architecture to help you integrate and process large volumnes of data at high speed. The services provides tools help you extract, transform, and load data from heterogeneous data sources such as your existing IT and OT systems and quickly obtain insights, explore new business models, and make your business decisions. With robust AI-ready architecture, you can also apply AI/machine learning as you integrate your data into EnOS. For more information about the services, see [Data Analytics](/docs/offline-data/en/2.0.8/datalake_analytics_overview).
 
 ### Data Visualization Offering
 
 Data visualization offering contains the following services:
 
-- Data Report, which helps you quickly render reports from your data in EnOS. For more information, see [Data Report](/docs/analysis-report/en/latest/report_overview).
+- Data Report, which helps you quickly render reports from your data in EnOS. For more information, see [Data Report](/docs/analysis-report/en/2.0.8/report_overview).
 
 - Graph Tool, which enables you to build presentation of your assets efficiently in a drag-n-drop model.
 
 ## EnOS Edge
 
-EnOS Edge provides capabilities of device data acquisition, device controlling, data normalization, and model-based real-time computing. The data communication channels between EnOS Edge and EnOS Cloud are secured by TLS/SSL protocol with dedicated X.509 certificate for each edge device and EnOS Cloud access point. For more information, see [EnOS Edge](/docs/enos-edge/en/latest/edge_overview.html).
+EnOS Edge provides capabilities of device data acquisition, device controlling, data normalization, and model-based real-time computing. The data communication channels between EnOS Edge and EnOS Cloud are secured by TLS/SSL protocol with dedicated X.509 certificate for each edge device and EnOS Cloud access point. For more information, see [EnOS Edge](/docs/enos-edge/en/2.0.8/edge_overview.html).
 
 If a 3rd party edge is required, EnOS Cloud also supports 3rd party edges that are compatible with the EnOS device connection framework.
 

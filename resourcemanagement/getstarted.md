@@ -29,7 +29,7 @@ The procedure for managing stream analytics resources is as follows:
 After submitting the resource request, return to the **Resource Management** page to view the status of resource allocation.
 
 - The status **Allocating** indicates that the resource allocation is still in progress.
-- The status **Allocated** indicates that the resource allocation is completed. You can start the published stream processing jobs. For details about stream processing job operation, see [Monitoring the Stream Processing Job](/docs/data-asset/en/latest/howto/stream/monitoring_job.html).
+- The status **Allocated** indicates that the resource allocation is completed. You can start the published stream processing jobs. For details about stream processing job operation, see [Monitoring the Stream Processing Job](/docs/data-asset/en/2.0.8/howto/stream/monitoring_job.html).
 
 ## Extending resource allocation
 If allocated resource cannot meet the growing business needs, you can extend the resource allocation.

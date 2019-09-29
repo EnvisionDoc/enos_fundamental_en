@@ -24,7 +24,7 @@
 
    security/security_overview
    security/x509_ca/index
-   Identity and Access Management </docs/iam/en/latest/iam_overview>
+   Identity and Access Management </docs/iam/en/2.0.8/iam_overview>
 
 .. toctree::
    :maxdepth: 1

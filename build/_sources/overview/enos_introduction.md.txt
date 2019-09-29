@@ -14,7 +14,7 @@ EnOS Cloud supports native EnOS Edge. If a 3rd party edge is required, EnOS Clou
 
 ## EnOS Edge
 
-EnOS Edge provides capabilities of device data acquisition, device controlling, data normalization, and model-based real-time computing. The data communication channels between EnOS Edge and EnOS Cloud are secured by TLS/SSL protocol with dedicated X.509 certificate for each edge device and EnOS Cloud access point. For more information, see [EnOS Edge](/docs/enos-edge/en/latest/edge_overview.html).
+EnOS Edge provides capabilities of device data acquisition, device controlling, data normalization, and model-based real-time computing. The data communication channels between EnOS Edge and EnOS Cloud are secured by TLS/SSL protocol with dedicated X.509 certificate for each edge device and EnOS Cloud access point. For more information, see [EnOS Edge](/docs/enos-edge/en/2.0.8/edge_overview.html).
 
 ## Major Advantages
 
