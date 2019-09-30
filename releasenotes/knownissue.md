@@ -20,9 +20,9 @@ The article lists the knowns issues and limitations of EnOS in terms of products
      - 
    * - Non-device assets can only be viewed from the Asset Tree interface of EnOS Console.
      - When a non-device asset is removed from an asset tree, the asset still exists, however, there is no way to view the asset from EnOS Console anymore.
-     - NA
+     - Go to **Device Management > Logic Assset** to view all the logical assets of this OU and delete if necessary.
      - 2019/08
-     - Planning
-     - 
+     - Resolved
+     - 2019/09
 
 <!--end-->
