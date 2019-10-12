@@ -1,6 +1,8 @@
 # Resource Specification
 
-## Stream Analytics Computing Resources
+This topic introduces specification of standard resource instances that can be managed online and the available options for resource items.  
+
+## Stream Analytics Computing Resource
 
 Multiple resource specifications are available to meet the requirements of different data amounts and processing efficiency. Resource specifications and corresponding data processing capabilities are as follows:
 
@@ -28,14 +30,21 @@ Multiple resource specifications are available to meet the requirements of diffe
 
 -->
 
-## TSDB Resources
+## TSDB Resource
 
-The TSDB resources include write resource and storage resource.
+The TSDB resources include write resource and storage resource. For write resource, only standard specification can be requested. Storage resource can be requested based on actual business needs. The system will measure and charge the actual use of resources. Detailed specification is as follows:
 
-- Write specification: only standard specification can be requested (5,000 data points per sencond). The system will measure and charge the actual use of resources.
-- Storage space: can be requested based on actual business needs (10 ~ 1,000 GB).
+.. list-table::
+   :widths: 40 60
 
-## Batch Computing Resources
+   * - Storage Capacity
+     - Description
+   * - Write Resource
+     - 5,000 data points per second
+   * - Storage Resource
+     - Available options are 10~1000 GB
+
+## Batch Computing Resource
 
 Batch computing resources can be requested based on computing unit (CU), with two kinds of computing specifications, Computing-Intensive and Memory-Intensive. You can request appropriate computing specification according to the characteristics of offline data analytics jobs (1 ~ 20 CU).
 
@@ -49,14 +58,44 @@ Batch computing resources can be requested based on computing unit (CU), with tw
    * - Memory-Intensive
      - 1CU = 1 core CPU + 4GB Memory
 
-## Data Warehouse Resources
+## Data Warehouse Resource
 
-Data warehouse (EnOS Hive) is a subject-oriented and integrated data storage environment for data analysis. Select the appropriate storage size according to actual business requirements. Storage capacity that can be requested is 10 ~ 1,000 GB.
+Data warehouse (EnOS Hive) is a subject-oriented and integrated data storage environment for data analysis. Select the appropriate storage size according to actual business requirements. Detailed specification is as follows:
 
-## Data Explorer Resources
+.. list-table::
+   :widths: 40 60
 
-Data Explorer sandbox provides running environment for the data analytics applications developed by data scientists and data engineers. Select the appropriate CPU, memory, and storage according to actual business requirements. CPU that can be requested is 2~10 vcore; memory that can be requested is 4~20GB; storage that can be requested is 1~10GB.
+   * - Storage Capacity
+     - Description
+   * - Storage Resource
+     - Available options are 10~1000 GB
 
-## File Storage HDFS Resources
+## Data Explorer Resource
 
-HDFS is used for big data analysis and storage scenarios (including data archiving). Select the appropriate storage size according to actual business requirements. Storage capacity that can be requested is 10 ~ 1,000 GB.
+Data Explorer sandbox provides running environment for the data analytics applications developed by data scientists and data engineers. Select the appropriate CPU, memory, and storage according to actual business requirements. Detailed specification is as follows:
+
+.. list-table::
+   :widths: 40 60
+
+   * - Computing Capacity
+     - Description
+   * - CPU
+     - Available options are 2~10 vcore
+   * - Memory
+     - Available options are 4~20 GB
+   * - Storage Resource
+     - Available options are 1~10 GB
+
+## File Storage HDFS Resource
+
+HDFS is used for big data analysis and storage scenarios (including data archiving). Select the appropriate storage size according to actual business requirements. Detailed specification is as follows:
+
+.. list-table::
+   :widths: 40 60
+
+   * - Storage Capacity
+     - Description
+   * - Storage Resource
+     - Available options are 10~1000 GB
+
+<!-- end -->
