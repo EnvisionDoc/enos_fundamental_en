@@ -18,17 +18,12 @@ Multiple resource specifications are available to meet the requirements of diffe
    * - Standard X 2
      - 3000 data points / second
      - With 10 measure points / second, supporting about 300 devices
+   * - Standard X 4
+     - 6000 data points / second
+     - With 10 measure points / second, supporting about 600 devices
 
 .. note:: The computing capability refers to the total amount of data that can be processed by running stream processing jobs in unit time. For a stream processing job, the number of data points is equal to the number of measure points multiplied by the number of devices.
 
-<!--
-
-
-* - Standard X 4
-  - 6000 data points / second
-  - With 10 measure points / second, supporting about 600 devices
-
--->
 
 ## TSDB Resource
 
