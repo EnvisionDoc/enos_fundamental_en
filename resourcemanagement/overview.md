@@ -2,33 +2,27 @@
 
 Default resources are allocated when an organization is created, for performing basic operations such as connecting devices into EnOS. If you need to expand or adjust the capabilities of your clusters on EnOS, you'll need additional resources or adjust your existing resource quota. EnOS offering online resource management for specific types of resources.
 
-## Which Resource can I Manage Online?
+## Which Resource Can I Manage Online?
 
 Currently, you can manage the following computing and storage resources online based on your business needs:
 
-**Stream Analytics**
+.. list-table::
+   :widths: 30 70
 
-Computing resource for stream data processing. Before running stream data processing jobs, you need to request the Stream Analytics computing resource. Otherwise, the stream data processing jobs cannot be started.
-
-**TSDB**
-
-Storage resource for time series data. Before configuring TSDB storage policy for measuring point data, you need to request the TSDB resource.
-
-**Batch Computing**
-
-Computing resource for data analytics. To run data integration and off-line data analytics jobs, you need to request Batch Computing resource.
-
-**Data Warehouse**
-
-Storage resource for data to be stored in EnOS Hive. To run off-line data analytics jobs and save data in EnOS Hive, you need to request Data Warehouse resource.
-
-**Data Explorer**
-
-Sandbox resource for using data explorer to develop data processing and analytics programs. To run scripts to transform data and extract insights from data, you need to request Data Explorer resource.
-
-**File Storage HDFS**
-
-Storage resource for files to be stored in HDFS. To run data analytics jobs and save files in HDFS, or run data archiving jobs to store files in HDFS, you need to request File Storage HDFS resource.
+   * - Resource Name
+     - Function Description
+   * - Stream Analytics
+     - Computing resource for stream data processing. Before running stream data processing jobs, you need to request the Stream Analytics computing resource. Otherwise, the stream data processing jobs cannot be started.
+   * - TSDB
+     - Storage resource for time series data. Before configuring TSDB storage policy for measuring point data, you need to request the TSDB resource.
+   * - Batch Computing
+     - Computing resource for data analytics. To run data integration and off-line data analytics jobs, you need to request Batch Computing resource.
+   * - Data Warehouse
+     - Storage resource for data to be stored in EnOS Hive. To run off-line data analytics jobs and save data in EnOS Hive, you need to request Data Warehouse resource.
+   * - Data Explorer
+     - Sandbox resource for using data explorer to develop data processing and analytics programs. To run scripts to transform data and extract insights from data, you need to request Data Explorer resource.
+   * - File Storage HDFS
+     - Storage resource for files to be stored in HDFS. To run data analytics jobs and save files in HDFS, or run data archiving jobs to store files in HDFS, you need to request File Storage HDFS resource.
 
 Different resource specifications correspond to different data processing and storage capabilities. For detailed information about the capability of resource units, see [Resource Specification](reference).
 
@@ -70,7 +64,7 @@ Computing capability for offline data analytics jobs. If the jobs require higher
 
 ## Capacity and Limitations
 
-- Currently, each organization can request 1 resource instance for stream analytics, TSDB, data warehouse, and file storage HDFS. 
+- Currently, each organization can request 1 resource instance for stream analytics, TSDB, data warehouse, and file storage HDFS.
 - Each organization can request 3 resource instances for batch computing and data explorer, with globally unique queue and sandbox names.
 
 For the capacity of standard resource instances, see [Resource Specification](reference).
