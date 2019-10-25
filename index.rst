@@ -6,8 +6,6 @@
    :caption: Release Information
 
    releasenotes/index
-   releasenotes/knownissue
-   doc_updates
 
 .. toctree::
    :maxdepth: 1
