@@ -1,79 +1,79 @@
-# Resource Specification
+# 资源规格说明
 
-This topic introduces specification of standard resource instances that can be managed online and the available options for resource items.  
+本文介绍可在线管理的标准资源实例的规格。
 
-## Stream Analytics Computing Resource
+## 流式计算资源<stream-analytics-computing-resource>
 
-Multiple resource specifications are available to meet the requirements of different data amounts and processing efficiency. Resource specifications and corresponding data processing capabilities are as follows:
+流式计算资源提供多种资源规格，不同的规格对应着不同的数据处理能力。规格越高，处理效率越高，单位时间内处理的数据量越大。具体说明如下：
 
 .. list-table::
    :widths: 20 30 50
 
-   * - Specification
-     - Computing Capability
-     - Reference
-   * - Standard
-     - 1500 data points / second
-     - With 10 measure points / second, supporting about 150 devices
-   * - Standard X 2
-     - 3000 data points / second
-     - With 10 measure points / second, supporting about 300 devices
-   * - Standard X 4
-     - 6000 data points / second
-     - With 10 measure points / second, supporting about 600 devices
+   * - 资源规格
+     - 计算能力
+     - 业务参考
+   * - 标准规格
+     - 1500数据点/秒
+     - 10模型点/秒，约150个设备实例
+   * - 标准规格X2
+     - 3000数据点/秒
+     - 10模型点/秒，约300个设备实例
+   * - 标准规格X4
+     - 6000数据点/秒
+     - 10模型点/秒，约600个设备实例
 
-.. note:: The computing capability refers to the total amount of data that can be processed by running stream processing jobs in unit time. For a stream processing job, the number of data points is equal to the number of measure points multiplied by the number of devices.
+.. note:: 资源计算能力指的是运行流数据处理任务时，单位时间内能够处理的数据总量。对于一个流数据处理任务，其数据点等于：**输入的测点数量** x **设备实例数**。
 
-## TSDB Resource
+## 时序数据库<tsdb-resource>
 
-The TSDB resources include write resource and storage resource. For write resource, only standard specification can be requested. Storage resource can be requested based on actual business needs. The system will measure and charge the actual use of resources. Detailed specification is as follows:
-
-.. list-table::
-   :widths: 40 60
-
-   * - Storage Capacity
-     - Description
-   * - Write Resource
-     - 5,000 data points per second
-   * - Storage Resource
-     - Available options are 10~1000 GB
-
-## Batch Computing Resource
-
-Batch computing resources can be requested based on computing unit (CU), with two kinds of computing specifications, Computing-Intensive and Memory-Intensive. You can request appropriate computing specification according to the characteristics of offline data analytics jobs (1 ~ 20 CU).
+时序数据库的资源包括写入资源和存储资源。对于写入能力，目前仅提供一个规格。对于存储空间，可以根据业务需求，选择合适的空间大小。具体说明如下：
 
 .. list-table::
    :widths: 40 60
 
-   * - Computing Specification
-     - Allocated Resources
-   * - Computing-Intensive
+   * - 存储能力
+     - 资源说明
+   * - 写入能力
+     - 5000 数据点/秒
+   * - 存储空间
+     - 支持的申请范围为 10~1000 GB
+
+## 批处理计算资源<batch-computing-resource>
+
+批处理计算资源以计算单元（CU）为单位，提供了两种计算规格，即计算密集型和内存密集型。根据离线计算任务的特点，选择合适的计算规格。若CPU占用率更高，则可以选择计算密集型；若内存占用率更高，则可以选择内存密集型。目前支持的申请范围为1~20CU。
+
+.. list-table::
+   :widths: 40 60
+
+   * - 资源规格
+     - 资源说明
+   * - 计算密集型
      - 1CU = 1 core CPU + 2GB Memory
-   * - Memory-Intensive
+   * - 内存密集型
      - 1CU = 1 core CPU + 4GB Memory
 
-## Data Warehouse Resource
+## 数据仓库<data-warehouse-resource>
 
-Data warehouse (EnOS Hive) is a subject-oriented and integrated data storage environment for data analysis. Select the appropriate storage size according to actual business requirements. Detailed specification is as follows:
-
-.. list-table::
-   :widths: 40 60
-
-   * - Storage Capacity
-     - Description
-   * - Storage Resource
-     - Available options are 10~1000 GB
-
-## HDFS File Storage Resource
-
-HDFS is used for big data analysis and storage scenarios (including data archiving). Select the appropriate storage size according to actual business requirements. Detailed specification is as follows:
+数据仓库即EnOS Hive数据库，解决离线数据分析需求的集成化数据存储环境。对于存储空间，可以根据业务需求，选择合适的空间大小。具体说明如下：
 
 .. list-table::
    :widths: 40 60
 
-   * - Storage Capacity
-     - Description
-   * - Storage Resource
-     - Available options are 10~1000 GB
+   * - 存储能力
+     - 资源说明
+   * - 存储空间
+     - 支持的申请范围为 10~1000 GB
+
+## HDFS文件存储<file-storage-resource>
+
+HDFS即Hadoop分布式文件系统，适用于大数据计算、存储分析、数据归档的场景。对于存储空间，可以根据业务需求，选择合适的空间大小。具体说明如下：
+
+.. list-table::
+   :widths: 40 60
+
+   * - 存储能力
+     - 资源说明
+   * - 存储空间
+     - 支持的申请范围为 10~1000 GB
 
 <!-- end -->
