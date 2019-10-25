@@ -24,7 +24,6 @@ Multiple resource specifications are available to meet the requirements of diffe
 
 .. note:: The computing capability refers to the total amount of data that can be processed by running stream processing jobs in unit time. For a stream processing job, the number of data points is equal to the number of measure points multiplied by the number of devices.
 
-
 ## TSDB Resource
 
 The TSDB resources include write resource and storage resource. For write resource, only standard specification can be requested. Storage resource can be requested based on actual business needs. The system will measure and charge the actual use of resources. Detailed specification is as follows:
@@ -81,7 +80,7 @@ Data Explorer sandbox provides running environment for the data analytics applic
    * - Storage Resource
      - Available options are 1~10 GB
 
-## File Storage HDFS Resource
+## HDFS File Storage Resource
 
 HDFS is used for big data analysis and storage scenarios (including data archiving). Select the appropriate storage size according to actual business requirements. Detailed specification is as follows:
 
@@ -92,5 +91,23 @@ HDFS is used for big data analysis and storage scenarios (including data archivi
      - Description
    * - Storage Resource
      - Available options are 10~1000 GB
+
+## Data Archiving Resource
+
+Multiple resource specifications are available for archiving different data amount and data archiving efficiency. Resource specifications and corresponding data archiving capabilities are as follows:
+
+.. list-table::
+   :widths: 40 60
+
+   * - Specification
+     - Archiving Capability
+   * - Standard
+     - 5,000 data points / second
+   * - Standard X 2
+     - 10,000 data points / second
+   * - Standard X 4
+     - 20,000 data points / second
+   * - Standard X 8
+     - 40,000 data points / second
 
 <!-- end -->
