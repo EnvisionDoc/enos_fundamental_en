@@ -14,6 +14,10 @@ The release notes provide you with information about:
    :maxdepth: 1
    :caption: Release Notes Archive
 
+   201909
+   201908
+   201906
+   201905
    20190410
    20190305
    20190221

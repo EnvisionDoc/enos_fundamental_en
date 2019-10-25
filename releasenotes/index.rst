@@ -1,20 +1,14 @@
 Release Notes
 ===============
 
-EnOS improves on an ongoing basis. To help you stay current with our most recent development dynamics, this section provides the following information:
-
-- The latest releases
-- Known issues
-- Bug fixes
-- Deprecated functionality
+EnOS 2.0.9 (2019/09/30) released new features. To help you stay current with our most recent development dynamics, this section provides the following information:
 
 .. toctree::
    :maxdepth: 1
-   :caption: Release Notes
 
-   20190930
-   201909
-   201908
-   201906
-   201905
+   new_feature
+   enhancement
+   deprecated
+   knownissue
+   ../doc_updates
    relnotes_archive
